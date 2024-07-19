@@ -5,13 +5,16 @@ To save time while reading by summarizing a large article or text or youtube vid
 # Configuring
 First create a virtual environemnt.
 ```
-python -m venv env
+conda create -n venv
 ```
 or
 ```
 conda create -p venv python==3.10
 ```
-
+activate the virtual env by typing
+```
+conda activate venv
+```
 Create a .env file which contain the google api key, within .env file write the below things 
 ```
 GOOGLE_API_KEY = "your_google_api_key"
