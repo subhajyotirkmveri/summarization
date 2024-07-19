@@ -10,7 +10,7 @@ python -m venv env
 1. Clone this repository:
    
 ```
- git clone https://github.com/subhajyotirkmveri/summarization_app.git
+ git clone https://github.com/subhajyotirkmveri/summarization.git
  
 ```
 2. Go to the cloning folder
