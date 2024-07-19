@@ -40,6 +40,7 @@ pip install -r requirements.txt
 streamlit run app_5.py
 ```
 or 
+for the limitation of summary text (minimum words and maximum words) type the below cmd
 ```
 streamlit run app_6.py
 ```
@@ -78,6 +79,6 @@ Summarize result:-
 - This is some of the summary text return by the program. Main article was loaded by some wiki url
 ![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_10.jpeg)
 
-## You can also utilize another Python file for summarizing the corresponding input. In the app_5.py file, only one pipeline is employed for all cases.   
+   
 
    
