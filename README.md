@@ -7,6 +7,16 @@ First create a virtual environemnt.
 ```
 python -m venv env
 ```
+or
+```
+conda create -p venv python==3.10
+```
+
+Create a .env file which contain the google api key, within .env file write the below things 
+```
+GOOGLE_API_KEY = "your_google_api_key"
+```
+
 1. Clone this repository:
    
 ```
@@ -15,31 +25,26 @@ python -m venv env
 ```
 2. Go to the cloning folder
 ```
-cd summarization_app
+cd summarization
 ```
 3. Install all the depenedencies :   
 ```
 pip install -r requirements.txt
 ```
 
-You would need to download and install git lfs 
-and run in cmd to setup lfs
-```
-git lfs install 
-```
-4. Then clone the repository containing LaMini-Flan-T5-248M which is the LLM we're using. Make sure that LaMini-Flan-T5-248M is within cloned project.
-```
-git clone https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M
-```
-
 5. Open terminal and run the following command:
 ```
 streamlit run app_5.py
 ```
-## Application Preview :
-You can select text from your lengthy article in four ways:-
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_1.jpeg)
+or 
+```
+streamlit run app_6.py
+```
 
+## Application Preview :
+You can select text from your lengthy article in five  ways:-
+![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_1.jpeg)
+  - youtube video url link
   - By typing text on your own (or copy-paste).
   - Reading the text from **.txt file**.
   - Reading the text from **.pdf file**.(You can choose either to get summary of entire pdf or select any page interval).
