@@ -1,6 +1,6 @@
 ## Purpose :- 
 
-To save time while reading by summarizing a large article or text into fewer lines. 
+To save time while reading by summarizing a large article or text or youtube video into fewer lines. 
 
 # Configuring
 First create a virtual environemnt.
