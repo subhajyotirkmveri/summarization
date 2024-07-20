@@ -15,8 +15,8 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Prompts for Gemini Pro API
-text_prompt = """You are a document summarizer. You will take the text and summarize it, providing the important summary in points within 250 words. Please provide the summary of the text given here: """
-youtube_prompt = """You are a YouTube video summarizer. You will be taking the transcript text and summarizing the entire video and providing the important summary in points within 250 words. Please provide the summary of the text given here: """
+text_prompt = """You are a document summarizer. You will take the text and summarize it, providing the important summary in points within 100 words. Please provide the summary of the text given here: """
+youtube_prompt = """You are a YouTube video summarizer. You will be taking the transcript text and summarizing the entire video and providing the important summary in points within 100 words. Please provide the summary of the text given here: """
 
 # Function to Read .txt File and return its Text
 def file_text(filepath):

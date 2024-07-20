@@ -1,54 +1,45 @@
 ## Purpose :- 
 
-To save time while reading by summarizing a large article or text or youtube video into fewer lines. 
+To save time while reading by summarizing a large article or text into fewer lines. 
 
 # Configuring
 First create a virtual environemnt.
 ```
-conda create -n venv
+python -m venv env
 ```
-or
-```
-conda create -p venv python==3.10
-```
-activate the virtual env by typing
-```
-conda activate venv
-```
-Create a .env file which contain the google api key, within .env file write the below things 
-```
-GOOGLE_API_KEY = "your_google_api_key"
-```
-
 1. Clone this repository:
    
 ```
- git clone https://github.com/subhajyotirkmveri/summarization.git
+ git clone https://github.com/subhajyotirkmveri/summarization_app.git
  
 ```
 2. Go to the cloning folder
 ```
-cd summarization
+cd summarization_app
 ```
 3. Install all the depenedencies :   
 ```
 pip install -r requirements.txt
 ```
 
+You would need to download and install git lfs 
+and run in cmd to setup lfs
+```
+git lfs install 
+```
+4. Then clone the repository containing LaMini-Flan-T5-248M which is the LLM we're using. Make sure that LaMini-Flan-T5-248M is within cloned project.
+```
+git clone https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M
+```
+
 5. Open terminal and run the following command:
 ```
 streamlit run app_5.py
 ```
-or 
-for the limitation of summary text (minimum words and maximum words) type the below cmd
-```
-streamlit run app_6.py
-```
-
 ## Application Preview :
-You can select text from your lengthy article in five  ways:-
+You can select text from your lengthy article in four ways:-
 ![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_1.jpeg)
-  - youtube video url link
+
   - By typing text on your own (or copy-paste).
   - Reading the text from **.txt file**.
   - Reading the text from **.pdf file**.(You can choose either to get summary of entire pdf or select any page interval).
@@ -79,6 +70,6 @@ Summarize result:-
 - This is some of the summary text return by the program. Main article was loaded by some wiki url
 ![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_10.jpeg)
 
-   
+## You can also utilize another Python file for summarizing the corresponding input. In the app_5.py file, only one pipeline is employed for all cases.   
 
    
