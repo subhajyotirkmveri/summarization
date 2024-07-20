@@ -61,27 +61,18 @@ You can select text from your lengthy article in five ways:-
 
  
 ## Output :- 
-- This is a portion of the summary text returned by the program when selecting "typing text on your own (or copy-paste)", you can also accordingly choose minimun number of token and maximum number of tokenand press enter for taking those value-
+- This is a portion of the summary text returned by the program when selecting "youtube video transcript"
 Click the "Summarize" button for summarize the input text:-
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_2.jpeg)
-summarize result of the input text given below:-
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_3.jpeg)
+![image](https://github.com/subhajyotirkmveri/summarization/blob/main/asset/asset_22.jpeg)
+
+
 - This is a snippet of the summary text returned by the program if ".txt" is chosen, you can also accordingly choose minimun number of token and maximum number of token and press enter for taking those value and upload any .txt file:-
 
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_4.jpeg)
 Click the "Summarize" button for summarize the .txt file:
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_5.jpeg)
-- This is a portion of the summary text provided by the program when selecting the ".pdf" option ,you can also accordingly choose minimun number of token and maximum number of token and press enter for taking those value and upload any .pdf file:-
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_6.jpeg)
+![image](https://github.com/subhajyotirkmveri/summarization/blob/main/asset/asset_23.jpeg)
+
+- This is a portion of the summary text provided by the program when selecting the ".pdf" option
+  upload any .pdf file:-
+
 Click the "Summarize" button and navigate to the terminal. Then, input the page number you wish to summarize by typing an integer value. If you type "Y" then it summarize whole document: one such sample given below
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_7.jpeg)
-showing the whole pdf document
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_8.jpeg)
-Summarize result:-
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_9.jpeg)
-- This is some of the summary text return by the program. Main article was loaded by some wiki url
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_10.jpeg)
-
-## You can also utilize another Python file for summarizing the corresponding input. In the app_5.py file, only one pipeline is employed for all cases.   
-
-   
+![image](https://github.com/subhajyotirkmveri/summarization/blob/main/asset/asset_24.jpeg)
