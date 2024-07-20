@@ -1,50 +1,62 @@
 ## Purpose :- 
 
-To save time while reading by summarizing a large article or text into fewer lines. 
+To save time while reading by summarizing a large article in english language or text in english language or youtube video in english language into fewer lines. 
 
-# Configuring
+1. # Configuring
 First create a virtual environemnt.
 ```
 python -m venv env
 ```
-1. Clone this repository:
+or go to terminal and create a new environment by typing below cmd
+```
+conda create -p venv python=3.10 -y
+```
+
+2. Activate the new terminal
+```
+conda activate venv
+```
+3. Clone this repository:
    
 ```
- git clone https://github.com/subhajyotirkmveri/summarization_app.git
+ git clone https://github.com/subhajyotirkmveri/summarization.git
  
 ```
-2. Go to the cloning folder
+4. Go to the cloning folder
 ```
-cd summarization_app
+cd summarization
 ```
-3. Install all the depenedencies :   
+5. Within this directory create a .env file which contain the below thing
+```
+GOOGLE_API_KEY = "put your api key here"
+```
+6. Install all the depenedencies :   
 ```
 pip install -r requirements.txt
 ```
 
-You would need to download and install git lfs 
-and run in cmd to setup lfs
-```
-git lfs install 
-```
-4. Then clone the repository containing LaMini-Flan-T5-248M which is the LLM we're using. Make sure that LaMini-Flan-T5-248M is within cloned project.
-```
-git clone https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M
-```
-
-5. Open terminal and run the following command:
+7. Open terminal and run the following command:
 ```
 streamlit run app_5.py
+```
+or 
+```
+streamlit run app_6.py
+```
+and for youtube video summarization run the following command:
+```
+streamlit run app.py
 ```
 ## Application Preview :
 You can select text from your lengthy article in four ways:-
 ![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_1.jpeg)
 
-  - By typing text on your own (or copy-paste).
+  - By putting youtube url
   - Reading the text from **.txt file**.
   - Reading the text from **.pdf file**.(You can choose either to get summary of entire pdf or select any page interval).
   
   - Reading the text from **wikipedia page** (All you have to do is to provide the url of that page. Program will automatically scrap the text and summarise it for you).
+  - By typing text on your own (or copy-paste).
   
 
  
