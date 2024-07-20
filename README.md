@@ -48,8 +48,8 @@ and for youtube video summarization run the following command:
 streamlit run app.py
 ```
 ## Application Preview :
-You can select text from your lengthy article in four ways:-
-![image](https://github.com/subhajyotirkmveri/summarization_app/blob/main/asset/asset_1.jpeg)
+You can select text from your lengthy article in five ways:-
+![image](https://github.com/subhajyotirkmveri/summarization/blob/main/asset/asset_21.jpeg)
 
   - By putting youtube url
   - Reading the text from **.txt file**.
