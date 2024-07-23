@@ -9,7 +9,7 @@ python -m venv env
 ```
 or go to terminal and create a new environment by typing below cmd
 ```
-conda create -p venv python=3.10 -y
+conda create -p venv python==3.10 -y
 ```
 
 2. Activate the new terminal
